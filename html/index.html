@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- font -->
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;400;500;700&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&family=Work+Sans:wght@300;600;800&display=swap" rel="stylesheet">        <link href="../css/stylesheet.css" rel="stylesheet">
+        <!-- title -->
+        <title>Happy Birthday, Kakudo!</title>
+    </head>
+
+    <body>
+        <header>
+            <!-- introduction page -->
+            <div class="intro wrapper">
+                <div class="introWithIcon">
+                    <div class="introTextContainer">
+                        <h1>Kentaro Kakudo</h1>
+                        <span class="autoType"></span>
+
+                        <!-- autotyping text -->
+                        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+                        <script>
+                            var typed = new Typed(".autoType", {
+                                strings: ["Age++;","Console.log(Age);","21 years old!!!!"],
+                                typeSpeed: 90,
+                                backSpeed: 90,
+                                loop: true,
+                            })
+                        </script>
+                    </div>
+
+                    <div class="introIcon">
+                        <img src="../img/kentaro-icon.png" alt="KakudoKentaro's Icon">
+                    </div>
+                </div>
+            </div>
+            <!-- indication -->
+            <div class="downArrow">
+                <a href="#about">
+                    <img src="../img/Arrow 1.png" alt="Jump into the content">
+                </a>
+            </div>
+        </header>
+
+        <main>
+            <!-- section: about -->
+            <section class="about" id="about">
+                <!-- seciton title -->
+                <h2 class="sectionTitle wrapper">Happy Birthday!</h2>
+
+                <!-- container -->
+                <div class="aboutContainer wrapper">
+                    <div class="aboutText">
+                        <p>やっほー！くるみだよ。<span class="blueShadowText">かくどーくん、お誕生日おめでとう！</span>かくどーくんの大切なお誕生日をお祝いするため、<br>ウェブサイトを作ってみたの！楽しんで見てくれたら嬉しいな😆　今日はパーティ！🎉</p>
+                    </div>
+
+                    <div class="aboutImage">
+                        <img src="../img/about_pic.png" alt="a picture of Kurumi and Kentaro">
+                    </div>
+                </div>
+                <div class="balloonContainer wrapper">
+                    <span class="balloon"></span>
+                </div>
+            </section>
+
+            <!-- section: message -->
+            <section class="messages">
+                
+                <!-- section title -->
+                <div class="sectionTitleContainer wrapper">
+                    <h2 class="sectionTitle" id="messagesTitle">Messages</h2>
+                    <!-- <h3 class="sectionSubTitle">友人からのメッセージ</h3> -->
+                </div>
+                
+                <!-- container -->
+                <div class="messageContainer">
+
+                    <!--- message on left side -->
+                    <div class="messageUnit wrapper" id="sayapiUnit">
+                        <div class="messageTitle wrapper">
+                            <h2 class="name">さやっぴぃ</h2>
+                        </div>
+                        <div class="message wrapper" id="sayapi">
+                            <div class="messageImageOnly"> <!-- さやっぴぃの場合のみ / shadow will be added -->
+                                <img src="../img/オメーでとう.png" alt="Happy Birthday">
+                            </div>
+                            <div class="messageAnnotation"> <!-- さやっぴぃの場合のみ -->
+                                <p>お誕生日おめでとう！！<br>おめでとーーう！！</p>
+                            </div>
+                        </div>
+                        <!-- decoration -->
+                        <img src="../img/pink-kirakira.png" alt="pink-shine-icon" class="nameDecoration" id="pinkKirakira"> 
+                        <div class="balloonIwariki"></div>
+                        <!-- <span class="pinkCircle"></span> -->
+                    </div>
+
+                    <!-- message on right side -->
+                    <div class="messageUnit wrapper">
+                        <div class="messageTitleRight">
+                            <h2 class="name">河野智哉</h2>
+                        </div>
+
+
+                        <div class="messageRight">
+                            <div class="messageTextRight yellowRight">
+                                <p>お誕生日おめでとう！！
+                                    <span class="yellowBackground">21歳、拳ですね。</span>
+                                    ぜひ色んな難敵に対抗していってください。<br><br>
+                                    接点の数なら数学科のなかで誰にも負けないと思うし、<span class="yellowBackground">これからも続くと思うので仲良くしてください！！</span><br><br>
+                                    なんやかんやそんなに遊びに行ってないんで今度行きましょう！</p>
+                            </div>
+                        </div>
+                        <!-- decoration -->
+                        <span class="nameDecoration" id="kobushi">👊</span>
+                        <!-- <span class="nameDecoration" id="baloon">💖</span> -->
+                        <!-- <span class="pinkCircle"></span>-->
+                    </div>
+
+                    <!-- message on left side -->
+                    <div class="messageUnit wrapper">
+                        <div class="messageTitle">
+                            <h2 class="name">いわりき</h2>
+                            <img src="" alt="" class="nameDecoration"> 
+                        </div>
+
+                        <div class="messageText">
+                            <p>お誕生日おめでとう🎉
+                                健康で楽しい一年にしてね〜<br>
+                                <span class="blueBackground">早起きも頑張ろう</span> (僕も頑張るので)</p>
+                        </div>
+                        <!--- decoration -->
+                        <span class="nameDecoration" id="sun">🌞</span>
+                        <!-- <span class="blueCircle"></span> -->
+                    </div>
+
+                    <!-- message on right side -->
+                    <div class="messageUnit wrapper">
+                        <div class="messageTitleRight">
+                            <h2 class="name">こいで</h2>
+                        </div>
+
+                        <div class="messageRight">
+                            <div class="messageTextRight pinkRight">
+                                <p><span class="pinkBackground">happy birthday</span><br><br>
+                                    今年から色々忙しくなるし演習の授業も被んないだろうけど、頑張っていきましょー<br><br>
+                                    <span class="pinkBackground">どっかに出かける機会も増えるといいね👍</span>
+                                    良い一年を〜
+                            </div>
+                        </div>
+                        <!-- decoration -->
+                        <span class="nameDecoration" id="book">📚</span>
+                        <!-- <span class="pinkCircle"></span> -->
+                    </div>
+
+                    <!-- message on left side -->
+                    <div class="messageUnit wrapper">
+                        <div class="messageTitle">
+                            <h2 class="name">クレイジーひかり</h2>
+                            <img src="" alt="" class="nameDecoration"> <!-- will be absolute -->
+                        </div>
+
+                        <div class="messageText yellow">
+                            <p>ママー！！！！！いつもありがとうママ！！！！！<br><br>
+                                真面目に話すと、<span class="yellowBackground">数学など丁寧に教えてくれてとても感謝してます。</span><br><br>
+                                いつもおふざけに付き合ってくれてありがとうね。<br>これからもよろしく！
+                            </p>
+                        </div>
+                        <!--decoration-->
+                        <img src="../img/kakudo-with-snack.png" alt="kakudo eating snacks" id="kakudo-snack" class="nameDecoration">
+                        <!-- <span class="blueCircle"></span> -->
+                    </div>  
+
+                    <!-- message on right side -->
+                    <div class="messageUnit wrapper">
+                        <div class="messageTitleRight">
+                            <h2 class="name">のん</h2>
+                        </div>
+
+                        <div class="messageRight">
+                            <div class="messageTextRight blueRight">
+                               <p>
+                                <span class="blueBackground">かくどーさんお誕生日おめでとう！！！</span> <br><br>
+                                素敵な1年になりますよーに💕<br>
+                                くるみちゃんと仲良くね！！！
+                               </p>
+                            </div>
+                        </div>
+                        <span class="blueCircle">💙</span>
+                    </div>
+
+                    <!-- message  -->
+                    <div class="messageUnit wrapper">
+                        <div class="messageTitle">
+                            <h2 class="name">遠藤 哲</h2>
+                        </div>
+
+                        <div class="message">
+                            <div class="messageText pink">
+                               <p>
+                                <span class="pinkBackground">自作した実数と共に貴方の中の数学はさらに豊かになっていくことでしょう。</span> <br><br>
+                                僭越ながら誕生日をお祝いいたしますと共に、今後益々のご活躍をお祈り申し上げます。
+                               </p>
+                            </div>
+                        </div>
+                        <!--decoration-->
+                        <span class="nameDecoration" id="math">🔢</span>
+                    </div> 
+
+                    <!-- message on right side -->
+                    <div class="messageUnit wrapper">
+                        <div class="messageTitleRight">
+                            <h2 class="name">しののめ</h2>
+                        </div>
+
+                        <div class="messageRight">
+                            <div class="messageTextRight yellowRight">
+                               <p>
+                                誕生日おめでとう！！<br>
+                                <span class="yellowBackground">今年度も学生生活を共に楽しみましょう！！</span>
+                               </p>
+                            </div>
+                        </div>
+                        <!--decoration-->
+                        <span class="nameDecoration" id="graduateHat">🎓</span>
+                    </div>
+
+                    <!-- message on left side -->
+                    <div class="messageUnit wrapper">
+                        <div class="messageTitle">
+                            <h2 class="name">たむ&みお</h2>
+                        </div>
+
+                        <div class="messageText">
+                            <p>21歳のお誕生日おめでとうございます！！<br><br>
+                                <span class="blueBackground">またサイゼリアのまちがいさがししようね！</span><br>全部のまちがいを見つけられなかったら、
+                                エスカルゴ21匹注文するから食べてね。<br><br>
+                                あと、RTX3090Tiをレビューしてね。<br><br>
+                                胡桃ちゃんとの幸せな一年を！</p>
+                        </div>
+                        <!--- decoration -->
+                        <img src="../img/プリクラ2.png" alt="四人で撮ったプリクラ" class="nameDecoration" id="purikura2">
+                        <!-- <img src="../img/purikura3.png" alt="四人でとったプリクラ" class="nameDecoration" id="purikura3"> -->
+                        <!-- <span class="blueCircle"></span> -->
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- section:  share in Twitter-->
+            <section class="Twitter">
+                <!-- section title-->
+                <!-- <h2 class="sectionTitle">Wanna say Congrats?</h2> -->
+
+                <!-- content -->
+                <div class="TwitterContainer wrapper">
+                    <div class="TwitterIcon">
+                        <img src="../img/twitter-icon.png" alt="Twitter icon"> <!-- will come first on a responsive version-->
+                    </div>
+
+                    <div class="TwitterRight">
+                        <div class="TwitterText">
+                            <p id="hashtag">#kakudo21歳おめでとう</p> <!-- will be bigger than the ordinary p-->
+                            <p>ハッシュタグをつけて、あなたもおめでとうの気持ちを伝えよう！</p>
+                        </div>
+
+                        <div class="TwitterLink">
+                            <p id="toTwitter"><a href="https://twitter.com/intent/tweet?hashtags=ああ&url=https://kentarokurumi.net/" target="_blank">ツイートする</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- section: photos -->
+            <section class="photos">
+                <h2 class="sectionTitle  wrapper" id="photoTitle">Thank you for making every day special</h2>
+                <div class="photoContainer  wrapper">
+                    <div class="photo" id="photo1">
+                        <img src="../img/purikura1.JPG" alt="プリクラ" id="purikura1">
+                        <p>February 26th<br>
+                                ダブルデートに行った</p>
+
+                    </div>
+
+                    <div class="photo" id="photo2">
+                        <img src="../img/oosaka.JPG" alt="大阪城の展望台での自撮り" id="osaka">
+                        <p>February 21st<br>
+                            関西に行ったね。これは大阪城での写真。</p>
+                    </div>
+
+                    <div class="photo" id="photo3">
+                        <img src="../img/orix.JPG" alt="オリックスが負けそうな時のわたしたちの険しい顔">
+                        <p>November 24th<br>
+                            日本シリーズを見に行った。オリックスが負けそうな時の顔。</p>
+                    </div>
+
+                    <div class="photo" id="photo4">
+                        <img src="../img/kakudo-solo.png" alt="凛々しいかくどーくん" id="kakudo-solo">
+                        <img src="../img/kakudo-runa.png" alt="猫を撫でるかくどーくん" id="kakudo-runa">
+                    </div>
+
+                </div> 
+            </section>
+
+        </main>
+        
+        <footer>
+            <p>Made with 💙 by Kurumi Muto</p>
+
+        </footer>
+    </body>
+
+
+</html>

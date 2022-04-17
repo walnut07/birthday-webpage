@@ -3,13 +3,23 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="..img/pink-kirakira.png">
+
         <!-- font -->
         <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;400;500;700&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&family=Work+Sans:wght@300;600;800&display=swap" rel="stylesheet">        <link href="../css/stylesheet.css" rel="stylesheet">
-        <!-- title -->
+
+        <!-- information -->
         <title>Happy Birthday, Kakudo!</title>
+        <head prefix="og: http://ogp.me/ns#"></head>
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://kentarokurumi.com">
+        <meta property="og:title" content="It's Kakudo's Birthday!">
+        <meta property="og:description" content="覚道くん、２１歳おめでとう！私からのプレゼントです。">
+        <meta property="og:image" content="http://kentarokurumi.com/img/thumbnail.png" />
+        <meta name="twitter:card" content="summary"/>
     </head>
 
     <body>
@@ -55,7 +65,7 @@
                 <!-- container -->
                 <div class="aboutContainer wrapper">
                     <div class="aboutText">
-                        <p>やっほー！くるみだよ。<span class="blueShadowText">かくどーくん、お誕生日おめでとう！</span>かくどーくんの大切なお誕生日をお祝いするため、<br>ウェブサイトを作ってみたの！楽しんで見てくれたら嬉しいな😆　今日はパーティ！🎉</p>
+                        <p>やっほー！くるみだよ。<span class="blueShadowText">4月15日は、かくどーくんの誕生日！</span>かくどーくんの大切なお誕生日をお祝いするため、<br>ウェブサイトを作ってみたの！楽しんで見てくれたら嬉しいな😆　今日はパーティ！🎉</p>
                     </div>
 
                     <div class="aboutImage">
@@ -63,7 +73,7 @@
                     </div>
                 </div>
                 <div class="balloonContainer wrapper">
-                    <span class="balloon"></span>
+                    <span class="balloon"></span> <!-- 最初の風船 -->
                 </div>
             </section>
 
@@ -94,7 +104,7 @@
                         </div>
                         <!-- decoration -->
                         <img src="../img/pink-kirakira.png" alt="pink-shine-icon" class="nameDecoration" id="pinkKirakira"> 
-                        <div class="balloonIwariki"></div>
+                        <div class="balloonIwariki"></div> 
                         <!-- <span class="pinkCircle"></span> -->
                     </div>
 
@@ -170,6 +180,7 @@
                             </p>
                         </div>
                         <!--decoration-->
+                        <span class="balloon" id="balloonHikari"></span>
                         <img src="../img/kakudo-with-snack.png" alt="kakudo eating snacks" id="kakudo-snack" class="nameDecoration">
                         <!-- <span class="blueCircle"></span> -->
                     </div>  
@@ -241,12 +252,83 @@
                                 あと、RTX3090Tiをレビューしてね。<br><br>
                                 胡桃ちゃんとの幸せな一年を！</p>
                         </div>
-                        <!--- decoration -->
+                        <!--- decoration --> 
+                        <div class="balloon" id="balloonMiotamu"></div>
                         <img src="../img/プリクラ2.png" alt="四人で撮ったプリクラ" class="nameDecoration" id="purikura2">
                         <!-- <img src="../img/purikura3.png" alt="四人でとったプリクラ" class="nameDecoration" id="purikura3"> -->
                         <!-- <span class="blueCircle"></span> -->
                     </div>
+                    <!-- message on right side -->
+                    <div class="messageUnit wrapper">
+                        <div class="messageTitleRight">
+                            <h2 class="name">さとみ</h2>
+                        </div>
 
+                        <div class="messageRight">
+                            <div class="messageTextRight pinkRight">
+                                <p><span class="pinkBackground">覚道健太郎さん、お誕生日おめでとうございます🎉🍾🥳🎊㊗️</span><br><br>
+                                    くるみ先輩にはいつもお世話になっております🙇‍♀️<br><br>
+                                    健太郎さんにとって良い1年になりますように⛩🙏<br><br>
+                                    良い一年を〜
+                            </div>
+                        </div>
+                        <!-- decoration -->
+                        <span class="nameDecoration" id="heart">💓</span>
+                        <!-- <span class="pinkCircle"></span> -->
+                    </div>
+
+                    <!-- message on left side -->
+                    <div class="messageUnit wrapper">
+                        <div class="messageTitle">
+                            <h2 class="name">みづき</h2>
+                            <img src="" alt="" class="nameDecoration"> <!-- will be absolute -->
+                        </div>
+
+                        <div class="messageText yellow">
+                            <p>お誕生日おめでとうございます🎉🎉🎉
+                            </p>
+                        </div>
+                        <!--decoration-->
+                    </div>  
+
+                     <!-- message on right side -->
+                    <div class="messageUnit wrapper">
+                        <div class="messageTitleRight">
+                            <h2 class="name">かのう</h2>
+                        </div>
+
+                        <div class="messageRight">
+                            <div class="messageTextRight blueRight">
+                               <p>誕生日おめでとう！<br><br>
+                                いつも、<span class="blueBackground">何事にも飄々としている様子に不思議な安心感を覚えています。</span><br><br>
+                                これからも、我々の柱であり続けてください。
+                               </p>
+                            </div>
+                        </div>
+                        <!--decoration-->
+                        <span class="nameDecoration" id="backpack">🎒</span>
+                    </div>
+
+                    <!-- message  -->
+                    <div class="messageUnit wrapper">
+                        <div class="messageTitle">
+                            <h2 class="name">タヒョン</h2>
+                        </div>
+
+                        <div class="message">
+                            <div class="messageText pink">
+                               <p>Kakudoさん、初めまして！<br>
+                                <span class="pinkBackground">大学でKurumiさんと友達になったチョンタヒョンです！</span><br><br>
+                                お誕生日🎂おめでとうこざいます！!<br>
+                                Kurumiさんはとても優しくて、真面目な学生さんで、<span class="pinkBackground">そんなKurumiさんと縁があったKakudoさんもきっと素晴らしい人だろうな、と思ったんです。</span><br><br>
+                                これからもKurumiさんと幸せな思いを作ってください🌷
+                                
+                               </p>
+                            </div>
+                        </div>
+                        <!--decoration-->
+                        <span class="nameDecoration" id="shine">✨</span>
+                    </div> 
                 </div>
             </section>
 
@@ -254,7 +336,6 @@
             <section class="Twitter">
                 <!-- section title-->
                 <!-- <h2 class="sectionTitle">Wanna say Congrats?</h2> -->
-
                 <!-- content -->
                 <div class="TwitterContainer wrapper">
                     <div class="TwitterIcon">
@@ -268,7 +349,7 @@
                         </div>
 
                         <div class="TwitterLink">
-                            <p id="toTwitter"><a href="https://twitter.com/intent/tweet?hashtags=ああ&url=https://kentarokurumi.net/" target="_blank">ツイートする</a></p>
+                            <a href="https://twitter.com/intent/tweet?hashtags=kakudo21歳おめでとう&url=kentarokurumi.com" target="_blank"><p id="toTwitter">ツイートする</p></a>
                         </div>
                     </div>
                 </div>
@@ -303,11 +384,39 @@
                     </div>
 
                 </div> 
+                <div class="photoMessageContainer wrapper">
+                    <div class="photoText">
+                        <p>
+                            かくどーくん！私からの感謝の気持ちです。<br><br>
+                            あなたは、目の前の者と等しい立場にあろうとする。<br>
+                            それは、友人があなたを愛する理由で、私が恋に落ちた理由です。<br><br>
+                            物事を教えるとき、あなたは決して傲らない。<br>
+                            私が女性として当然のことをしたとき、あなたは必ず感謝する。<br><br>
+                            そうしたあなたの優しさは、私だけでなく、全ての隣人に開かれている。<br>
+                            友人や両親を含めてあなたと話した時、あなたの眼差しが会話へ従事する全員に開かれていると感じました。<br><br>
+                            私には、この世界が歪んで見えることがあります。私を支えるあなたはよく知っていることです。<br>
+                            でも、あなたのやさしさに触れるたび、私はこの世界の美しさを思い出します。<br>
+                            特別なことはしなくていいけれど、これからも、私の横で、世界の美しさを教え続けてほしいです。<br><br>
+                            くるみ
+                            
+
+                            <!--最近行ったコンサートの話を、させてください。<br> 私は先週、あるピアニストのコンサートへ行きました。
+                            ピアニストはホールでの演奏を終えた後、ロビーで観客と話をしていました。
+                            観客はサインをもらおう、感想を伝えようと、列をつくって順番を待ちます。
+                            印象的だったのは、一人ひとりに対するピアニストの眼差しが、ピアノを見つめるときと同様に真剣で、熱意に満ちていたことです。
+                            それは、まるで、私と対等であろうと必死なあなた姿勢のように。
+                        
+                            あなたのやさしさに触れるたび、この世界の美しさを思い出す。<br><br>-->
+                            
+                        </p>
+                    </div>
+                </div>
             </section>
 
         </main>
         
         <footer>
+            <p>Happy Birthday!</p>
             <p>Made with 💙 by Kurumi Muto</p>
 
         </footer>
